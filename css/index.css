@@ -1,0 +1,239 @@
+div.sticky {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    padding: 10px;
+    text-align: center;
+    font-size: 1.1rem;
+    color: rgb(206, 33, 33);
+    text-shadow: 0px 1px 1px rgb(0, 0, 0);
+    
+    font-family: Arial, Helvetica, sans-serif;
+    
+  }
+  
+
+.skype{
+    color: rgb(33, 59, 206);
+    font-size: 1.1rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.kayanyazi{
+    color: white;
+    font-size: 1.6rem;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 0px 1px 1px rgb(0, 0, 0);
+    left: 0;
+    position: fixed;
+    bottom: 0;
+    font-weight: 300px;
+    background-color: black;
+    opacity: 0.7;
+}
+
+  img.yuvarlak {
+    border-radius: 50%;
+    height: 250px;
+    width: 250px;
+    object-fit: cover;
+}
+
+a:link {
+    
+    text-decoration:none;
+}
+.gif{
+    text-align: center;
+}
+
+.ana-gif{
+    width: auto;
+    height: auto;
+    z-index: -1;
+
+    
+}
+
+.ana-giffff{
+    width: 280px;
+    height: 150px;
+    border-radius: 0.3rem;
+    margin-right: 25px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    text-decoration: none;
+    z-index: -1;
+}
+
+.ana-giff{
+    width: 300px;
+    height: 100px;
+    margin-right:50px ;
+}
+
+.ana-gifff{
+    width: 280px;
+    height: 180px;
+    border-radius: 0.3rem;
+    margin-right: 25px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    text-decoration: none;
+    z-index: -1;
+}
+
+.ana-gifff:hover {
+   width: 300px;
+   height: 200px;
+   transition: 0.5s;
+   text-decoration: none;
+   z-index: -1;
+
+  }
+
+div.background {
+    background-image: "img/bg.jpg";
+}
+
+.reklamsol{
+    top: 0;
+    left: 0;
+    position: fixed;
+    width:145px;
+    height: 950px;
+}
+
+.reklam-sag {
+    top: 0;
+    right: 0;
+    position: fixed;
+    width: 145px;
+    height: 950px;
+}
+
+
+/* RESPONSİVE */
+
+@media screen and (max-width: 700px) {
+    div.sticky {
+        position: -webkit-sticky;
+        position: sticky;
+        top: 0;
+        padding: 10px;
+        text-align: center;
+        font-size: 0.5rem;
+        color: rgb(206, 33, 33);
+        text-shadow: 0px 1px 1px rgb(0, 0, 0);
+        font-weight: 300;
+        font-family: Arial, Helvetica, sans-serif;
+        
+      }
+    
+      img.yuvarlak {
+        border-radius: 50%;
+        height: 150px;
+        width: 150px;
+        object-fit: cover;
+        text-align: center;
+    }
+    
+    .gif{
+        text-align: center;
+        width: 90;
+        height: 90;
+    }
+    .ana-gifff{
+        width: 150px;
+        height: 130px;
+       
+        
+    }
+
+    .ana-gifff:hover {
+        width: 150px;
+        height: 130px;
+        transition: 0s;
+        text-decoration: none;
+        z-index: -1;
+     
+       }
+
+       .ana-giffff{
+        width: 150px;
+        height: 130px;
+        border-radius: 0.3rem;
+        margin-right: 25px;
+        transition-duration: 0.4s;
+        cursor: pointer;
+        text-decoration: none;
+        z-index: -1;
+    }
+
+
+
+
+    div.background {
+        background-image: "img/bg.jpg";
+    }
+    .reklamsol{
+        top: 0;
+        left: 0;
+        position: fixed;
+        width: 0%;
+        height: 950px;
+    }
+    
+    .reklam-sag {
+        top: 0;
+        right: 0;
+        position: fixed;
+        width: 0%;
+        height: 950px;
+    }
+
+    .ana-gif{
+        width: 290px;
+        height: 90px;
+        
+    }
+
+}
+
+@media screen and (max-width: 375px) {
+
+    .ana-gifff{
+        width: 140px;
+        height: 130px;
+    }
+    .ana-giffff{
+        width: 140px;
+        height: 110px;
+        border-radius: 0.3rem;
+        margin-right: 25px;
+        transition-duration: 0.4s;
+        cursor: pointer;
+        text-decoration: none;
+        z-index: -1;
+    }
+}
+
+
+@media screen and (max-width: 360px) {
+
+    .ana-gifff{
+        width: 135px;
+        height: 125px;
+    }
+}
+
+
+@media screen and (max-width: 280px) {
+
+    .ana-gifff{
+        width: 170px;
+        height: 150px;
+    }
+}
+
+
